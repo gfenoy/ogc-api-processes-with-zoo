@@ -80,10 +80,10 @@ git clone https://github.com/eoap/dev-platform-eoap.git
 cd dev-platform-eoap/ogc-api-processes-with-zoo/
 skaffold dev -p standard
 # Apple user must use the additional options below
-docker pull zooproject/zoo-project:dru-2b3610cbb1198accadc14b6dead93ae29bd927fd --platform linux/amd64
+docker pull zooproject/zoo-project:dru-aeb658e352885d33c3de1d7a3b1bb30878574186 --platform linux/amd64
+docker pull zooproject/websocketd:67449315857b54bbc970f02c7aa4fd10a94721f0 --platform linux/amd64
 skaffold dev -p macos --platform linux/amd64 --enable-platform-node-affinity=true
 ````
-
 
 
 After some time you will see something like the following indicating that everything is in place.

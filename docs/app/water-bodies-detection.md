@@ -9,7 +9,7 @@ The paragraphs below provide an overview of the application packaged as a OGC Ea
 
 ##  Application overview
 
-This application takes as input Copernicus Sentinel-2 or USSG Landsat-9 data and detects water bodies by applying the Otsu thresholding technique on the Normalized Difference Water Index (NDWI).
+This application takes as input Copernicus Sentinel-2 or USGS Landsat-9 data and detects water bodies by applying the Otsu thresholding technique on the Normalized Difference Water Index (NDWI).
 
 The NDWI is calculated with: 
 
